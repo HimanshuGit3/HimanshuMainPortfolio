@@ -7,8 +7,8 @@ const ProjectsSection: React.FC = () => {
       title: 'Multi-Tier Polling Application',
       description: 'Built a scalable polling app using Docker, Kubernetes, and MySQL. Integrated CI/CD pipeline for automated deployment.',
       techStack: ['Docker', 'Kubernetes', 'MySQL', 'CI/CD', 'Python'],
-      githubUrl: 'https://github.com/himanshu300/polling-app',
-      liveUrl: 'https://github.com/himanshu300/polling-app',
+      githubUrl: 'https://github.com/HimanshuGit3/polling_project.git',
+      liveUrl: 'https://github.com/HimanshuGit3/polling_project.git',
       color: 'from-purple-500 to-pink-500',
       poster: '/multi.jpeg'
     },
@@ -16,8 +16,8 @@ const ProjectsSection: React.FC = () => {
       title: 'Web Scraper with SQL and Python',
       description: 'Automated web scraping using Python and stored data in a SQL database.',
       techStack: ['Python', 'SQL', 'BeautifulSoup', 'Pandas', 'SQLite'],
-      githubUrl: 'https://github.com/himanshu300/web-scraper',
-      liveUrl: 'https://github.com/himanshu300/web-scraper',
+      githubUrl: 'https://github.com/HimanshuGit3/web_scraper.git',
+      liveUrl: 'https://github.com/HimanshuGit3/web_scraper.git',
       color: 'from-blue-500 to-cyan-500',
       poster: '/webscrap.jpeg'
     },
@@ -25,8 +25,8 @@ const ProjectsSection: React.FC = () => {
       title: 'CI/CD Automation with Jenkins',
       description: 'Deployed web apps automatically via Jenkins and custom CI/CD pipelines.',
       techStack: ['Jenkins', 'Docker', 'Git', 'AWS', 'Shell Scripting'],
-      githubUrl: 'https://github.com/himanshu300/jenkins-cicd',
-      liveUrl: 'https://github.com/himanshu300/jenkins-cicd',
+      githubUrl: 'https://github.com/HimanshuGit3/CICD-Automation-Jenkins.git',
+      liveUrl: 'https://github.com/HimanshuGit3/CICD-Automation-Jenkins.git',
       color: 'from-green-500 to-teal-500',
       poster: '/CICD.jpeg'
     },
@@ -34,8 +34,8 @@ const ProjectsSection: React.FC = () => {
       title: 'Voice Assistant with AWS Integration',
       description: 'Voice-controlled assistant for email, WhatsApp, and AWS S3 using Python and Boto3.',
       techStack: ['Python', 'AWS', 'Boto3', 'Speech Recognition', 'NLP'],
-      githubUrl: 'https://github.com/himanshu300/voice-assistant',
-      liveUrl: 'https://github.com/himanshu300/voice-assistant',
+      githubUrl: 'https://github.com/HimanshuGit3/VoiceAssistant_python.git',
+      liveUrl: 'https://github.com/HimanshuGit3/VoiceAssistant_python.git',
       color: 'from-orange-500 to-red-500',
       poster: '/voiceassistent.jpeg'
     },
