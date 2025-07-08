@@ -6,49 +6,37 @@ const BlogsSection: React.FC = () => {
     {
       title: 'How to build an Online polling app with Docker & K8s',
       topic: 'DevOps & Containerization',
-      url: 'https://medium.com/@himanshu300/how-to-build-an-online-polling-app-with-docker-k8s-f7b5c5e8a9c2',
-      icon: '🗳️',
-      color: 'from-blue-500 to-purple-500',
+      url: 'https://www.linkedin.com/posts/himanshusingh300_devops-python-docker-activity-7325560770585411586-iyev?utm_source=share&utm_medium=member_desktop&rcm=ACoAADejyhQBzkeWsTwvNt7hM-cA-rX8PN7Abrs',
       poster: '/pollingblog.jpeg'
     },
     {
       title: 'Case Study: How Hotstar uses Kubernetes',
       topic: 'Cloud Architecture',
-      url: 'https://medium.com/@himanshu300/case-study-how-hotstar-uses-kubernetes-b8c3d4e7f9a1',
-      icon: '📺',
-      color: 'from-green-500 to-blue-500',
+      url: 'https://www.linkedin.com/posts/himanshusingh300_kubernetes-hotstar-techcasestudy-activity-7294721180362534912-Pu73?utm_source=share&utm_medium=member_desktop&rcm=ACoAADejyhQBzkeWsTwvNt7hM-cA-rX8PN7Abrs',
       poster: '/jio-hotstar-blog.jpeg'
     },
     {
       title: 'How Docker saves time & money for companies',
       topic: 'Business & Technology',
-      url: 'https://medium.com/@himanshu300/how-docker-saves-time-money-for-companies-c5d8e9f2a3b4',
-      icon: '🐳',
-      color: 'from-cyan-500 to-blue-500',
+      url: 'https://www.linkedin.com/posts/himanshusingh300_devops-docker-devopsjourney-activity-7290293655406350336-_HHS?utm_source=share&utm_medium=member_desktop&rcm=ACoAADejyhQBzkeWsTwvNt7hM-cA-rX8PN7Abrs',
       poster: '/dockerblog.jpeg'
     },
     {
       title: 'Post a LinkedIn message with Python',
       topic: 'Automation & Python',
-      url: 'https://medium.com/@himanshu300/post-a-linkedin-message-with-python-d7e8f9a1b2c3',
-      icon: '💼',
-      color: 'from-purple-500 to-pink-500',
+      url: 'https://www.linkedin.com/posts/himanshusingh300_arthlearner-tech-linuxworld-activity-7262092199763267585-KLoC?utm_source=share&utm_medium=member_desktop&rcm=ACoAADejyhQBzkeWsTwvNt7hM-cA-rX8PN7Abrs',
       poster: '/linkedinautomationblog.jpeg'
     },
     {
       title: 'How to read RAM using Linux',
       topic: 'System Administration',
-      url: 'https://medium.com/@himanshu300/how-to-read-ram-using-linux-e9f1a2b3c4d5',
-      icon: '🖥️',
-      color: 'from-orange-500 to-red-500',
+      url: 'https://www.linkedin.com/posts/himanshusingh300_arthlearner-linuxworld-ram-activity-7256948678496579584-jg9b?utm_source=share&utm_medium=member_desktop&rcm=ACoAADejyhQBzkeWsTwvNt7hM-cA-rX8PN7Abrs',
       poster: '/Ramblog.jpeg'
     },
     {
       title: 'Send Email using Python',
       topic: 'Python Programming',
-      url: 'https://medium.com/@himanshu300/send-email-using-python-f2a3b4c5d6e7',
-      icon: '📧',
-      color: 'from-teal-500 to-green-500',
+      url: 'https://www.linkedin.com/posts/himanshusingh300_arthlearner-linuxworld-python-activity-7259919612459319297-779H?utm_source=share&utm_medium=member_desktop&rcm=ACoAADejyhQBzkeWsTwvNt7hM-cA-rX8PN7Abrs',
       poster: '/email.jpeg'
     },
   ];
