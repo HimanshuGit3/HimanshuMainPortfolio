@@ -32,41 +32,36 @@ const ContactSection: React.FC = () => {
         <h2 className="font-orbitron font-bold text-4xl md:text-5xl text-center mb-12 glow-text" data-aos="fade-up">
           Connect with Me
         </h2>
-        
+
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <p className="text-gray-300 text-lg md:text-xl">
               Ready to collaborate on your next DevOps project? Let's connect and build something amazing together!
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {contactInfo.map((contact, index) => (
-              <div
+              <a
                 key={contact.label}
-                className="tech-card text-center group cursor-pointer"
+                href={contact.url}
+                target={contact.url.startsWith('http') ? '_blank' : '_self'}
+                rel="noopener noreferrer"
+                className="tech-card text-center group cursor-pointer block"
                 data-aos="fade-up"
                 data-aos-delay={index * 200}
               >
-                <a
-                  href={contact.url}
-                  target={contact.url.startsWith('http') ? '_blank' : undefined}
-                  rel={contact.url.startsWith('http') ? 'noopener noreferrer' : undefined}
-                  aria-label={contact.label}
-                  className="block"
-                >
-                  <contact.icon className={`w-12 h-12 mx-auto mb-4 ${contact.color} transition-colors`} />
-                  <h3 className="font-orbitron font-bold text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">
-                    {contact.label}
-                  </h3>
-                  <p className="text-gray-300 font-roboto-mono text-sm group-hover:text-white transition-colors">
-                    {contact.value}
-                  </p>
-                </a>
-              </div>
+                <contact.icon className={`w-12 h-12 mx-auto mb-4 ${contact.color} transition-colors`} />
+                <h3 className="font-orbitron font-bold text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">
+                  {contact.label}
+                </h3>
+                <p className="text-gray-300 font-roboto-mono text-sm group-hover:text-white transition-colors">
+                  {contact.value}
+                </p>
+              </a>
             ))}
           </div>
-          
+
           <div className="text-center mt-12" data-aos="fade-up">
             <p className="text-gray-400 font-roboto-mono">
               © 2025 Himanshu Kumar Singh. Built with ❤️ & 💻.
@@ -79,3 +74,4 @@ const ContactSection: React.FC = () => {
 };
 
 export default ContactSection;
+
