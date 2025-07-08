@@ -68,7 +68,7 @@ const ContactSection: React.FC = () => {
           
           <div className="text-center mt-12" data-aos="fade-up">
             <p className="text-gray-400 font-roboto-mono">
-              © 2024 Himanshu Kumar Singh. Built with React & TypeScript.
+              © 2025 Himanshu Kumar Singh. Built with ❤️ & 💻.
             </p>
           </div>
         </div>
