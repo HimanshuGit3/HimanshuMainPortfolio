@@ -44,14 +44,15 @@ const ContactSection: React.FC = () => {
             {contactInfo.map((contact, index) => (
               <div
                 key={contact.label}
-                className="tech-card text-center group cursor-hover"
+                className="tech-card text-center group cursor-pointer"
                 data-aos="fade-up"
                 data-aos-delay={index * 200}
               >
                 <a
                   href={contact.url}
-                  target={contact.url.startsWith('http') ? '_blank' : '_self'}
-                  rel="noopener noreferrer"
+                  target={contact.url.startsWith('http') ? '_blank' : undefined}
+                  rel={contact.url.startsWith('http') ? 'noopener noreferrer' : undefined}
+                  aria-label={contact.label}
                   className="block"
                 >
                   <contact.icon className={`w-12 h-12 mx-auto mb-4 ${contact.color} transition-colors`} />
