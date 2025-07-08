@@ -67,9 +67,6 @@ const ProjectsSection: React.FC = () => {
                   alt={project.title}
                   className="project-poster"
                 />
-                <div className="poster-overlay">
-                  <div className={`poster-gradient bg-gradient-to-r ${project.color}`}></div>
-                </div>
               </div>
               
               {/* Project Content */}
