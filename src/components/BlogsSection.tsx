@@ -9,7 +9,7 @@ const BlogsSection: React.FC = () => {
       url: 'https://medium.com/@himanshu300/how-to-build-an-online-polling-app-with-docker-k8s-f7b5c5e8a9c2',
       icon: '🗳️',
       color: 'from-blue-500 to-purple-500',
-      poster: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=600'
+      poster: '/pollingblog.jpeg'
     },
     {
       title: 'Case Study: How Hotstar uses Kubernetes',
@@ -17,7 +17,7 @@ const BlogsSection: React.FC = () => {
       url: 'https://medium.com/@himanshu300/case-study-how-hotstar-uses-kubernetes-b8c3d4e7f9a1',
       icon: '📺',
       color: 'from-green-500 to-blue-500',
-      poster: 'https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=600'
+      poster: '/jio-hotstar-blog.jpeg'
     },
     {
       title: 'How Docker saves time & money for companies',
@@ -25,7 +25,7 @@ const BlogsSection: React.FC = () => {
       url: 'https://medium.com/@himanshu300/how-docker-saves-time-money-for-companies-c5d8e9f2a3b4',
       icon: '🐳',
       color: 'from-cyan-500 to-blue-500',
-      poster: 'https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=600'
+      poster: '/dockerblog.jpeg'
     },
     {
       title: 'Post a LinkedIn message with Python',
@@ -33,7 +33,7 @@ const BlogsSection: React.FC = () => {
       url: 'https://medium.com/@himanshu300/post-a-linkedin-message-with-python-d7e8f9a1b2c3',
       icon: '💼',
       color: 'from-purple-500 to-pink-500',
-      poster: 'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=600'
+      poster: '/linkedinautomationblog.jpeg'
     },
     {
       title: 'How to read RAM using Linux',
@@ -41,7 +41,7 @@ const BlogsSection: React.FC = () => {
       url: 'https://medium.com/@himanshu300/how-to-read-ram-using-linux-e9f1a2b3c4d5',
       icon: '🖥️',
       color: 'from-orange-500 to-red-500',
-      poster: 'https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=600'
+      poster: '/Ramblog.jpeg'
     },
     {
       title: 'Send Email using Python',
@@ -49,7 +49,7 @@ const BlogsSection: React.FC = () => {
       url: 'https://medium.com/@himanshu300/send-email-using-python-f2a3b4c5d6e7',
       icon: '📧',
       color: 'from-teal-500 to-green-500',
-      poster: 'https://images.pexels.com/photos/1181772/pexels-photo-1181772.jpeg?auto=compress&cs=tinysrgb&w=600'
+      poster: '/email.jpeg'
     },
   ];
 
