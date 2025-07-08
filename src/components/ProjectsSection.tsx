@@ -10,7 +10,7 @@ const ProjectsSection: React.FC = () => {
       githubUrl: 'https://github.com/himanshu300/polling-app',
       liveUrl: 'https://github.com/himanshu300/polling-app',
       color: 'from-purple-500 to-pink-500',
-      poster: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800'
+      poster: '/multi.jpeg'
     },
     {
       title: 'Web Scraper with SQL and Python',
@@ -19,7 +19,7 @@ const ProjectsSection: React.FC = () => {
       githubUrl: 'https://github.com/himanshu300/web-scraper',
       liveUrl: 'https://github.com/himanshu300/web-scraper',
       color: 'from-blue-500 to-cyan-500',
-      poster: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800'
+      poster: '/webscrap.jpeg'
     },
     {
       title: 'CI/CD Automation with Jenkins',
@@ -28,7 +28,7 @@ const ProjectsSection: React.FC = () => {
       githubUrl: 'https://github.com/himanshu300/jenkins-cicd',
       liveUrl: 'https://github.com/himanshu300/jenkins-cicd',
       color: 'from-green-500 to-teal-500',
-      poster: 'https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800'
+      poster: '/CICD.jpeg'
     },
     {
       title: 'Voice Assistant with AWS Integration',
@@ -37,7 +37,7 @@ const ProjectsSection: React.FC = () => {
       githubUrl: 'https://github.com/himanshu300/voice-assistant',
       liveUrl: 'https://github.com/himanshu300/voice-assistant',
       color: 'from-orange-500 to-red-500',
-      poster: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800'
+      poster: '/voiceassistent.jpeg'
     },
   ];
 
